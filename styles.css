@@ -14,7 +14,7 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 0px 75px;
+    padding: 0px 175px;
     background-color: #1f2937;
 }
 
@@ -33,15 +33,52 @@ body {
 .header-links {
     display: flex;
     gap: 30px;
+    display: flex;
+    align-items: center;
 }
 
-.header-links a {
+.header-links a, .top-text p {
     font-size: 18px;
     color: #aaaaaa;    
 }
 
 .top {
     display: flex;
+    padding: 125px 0px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-text {
+    flex-basis: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 15px 0px;
+}
+
+.top-text button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+}
+
+.main-image {
+    width: 550px;
+    height: 250px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle {
