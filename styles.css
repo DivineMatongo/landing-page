@@ -2,12 +2,12 @@
 * {
     outline: dotted 1px red;
 }
-
 /* ------------------ */
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 .header {
