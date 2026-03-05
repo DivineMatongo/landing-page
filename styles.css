@@ -1,0 +1,32 @@
+/* to be deleted */
+* {
+    outline: dotted 1px red;
+}
+
+/* ------------------ */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.top {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+}
+
+.action {
+    display: flex;    
+}
