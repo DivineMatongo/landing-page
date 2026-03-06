@@ -2,13 +2,21 @@
 * {
     outline: dotted 1px red;
 }
-/* ------------------ */
+/* ---- UNIVERSAL DECLARATIONS ----- */
 
 body {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
     margin: 0px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
 }
 
 /* ------- TOP SECTION -------- */
@@ -66,11 +74,6 @@ h1 {
 .top-text button {
     background-color: #3882f6;
     color: white;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 130px;
-    height: 40px;
 }
 
 .main-image {
@@ -155,5 +158,32 @@ figcaption {
 }
 
 .action {
-    display: flex;    
+    display: flex;
+    margin: 80px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;  
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.action p {
+    color: rgb(238, 238, 238);
+    margin: 0px;
+    font-size: 18px;
+}
+
+.action button {
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    outline: 2px solid white;
+    flex: none;
 }
