@@ -18,44 +18,59 @@ button {
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 0px 175px;
     background-color: #1f2937;
+    padding: 15px;
 }
 
 .header {
     display: flex;
-    padding: 5px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logo {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+    flex: none;
 }
 
 .header-links {
-    display: flex;
     gap: 30px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    flex-basis: 770px;
 }
 
-.header-links a, .top-text p {
+.header-links a {
+    font-size: 18px;
+    color: #aaaaaa;
+    flex: none;    
+}
+
+.top-text p {
     font-size: 18px;
     color: #aaaaaa;    
+    align-self: flex-end;
 }
 
 .top {
     display: flex;
-    padding: 125px 0px;
-    gap: 50px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding: 40px 0px 80px 0px;
+    gap: 140px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
 }
 
+.top-text p {
+    margin: 20px 0px;
+}
+
+
 .top-text {
-    flex-basis: 500px;
+    align-self: flex-start;
 }
 
 h1 {
@@ -71,13 +86,10 @@ h1 {
 }
 
 .main-image {
-    width: 550px;
-    height: 250px;
-    background-color: grey;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 320px;
+    flex: none;
+    border-radius: 20px;
+    outline: solid white 3px;
 }
 
 /* ------- MIDDLE SECTION -------- */
