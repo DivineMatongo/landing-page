@@ -127,6 +127,33 @@ figcaption {
     flex-wrap: wrap;
 }
 
+/* Quote section */
+.quote-container {
+    background-color: #e5e7eb;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding: 100px 0px;
+}
+
+.quote {
+    max-width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    margin: auto;
+}
+
+.source {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 750px;
+    margin: auto;
+}
+
 .action {
     display: flex;    
 }
