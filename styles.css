@@ -46,7 +46,21 @@ button {
     font-size: 18px;
     color: #aaaaaa;
     flex: none;    
+    text-decoration: none;
 }
+
+.hover-text {
+  display: none; /* Hide the hover text initially */
+}
+
+.hover-container:hover .default-text {
+  display: none; /* Hide the default text on hover */
+}
+
+.hover-container:hover .hover-text {
+  display: inline; /* Show the hover text on hover */
+}
+
 
 .top-text p {
     font-size: 18px;
