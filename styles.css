@@ -11,6 +11,8 @@ body {
     margin: 0px;
 }
 
+/* ------- TOP SECTION -------- */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -81,13 +83,48 @@ h1 {
     align-items: center;
 }
 
+/* ------- MIDDLE SECTION -------- */
+
 .middle {
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 100px 0px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+}
+
+figure {
+    width: 180px;
+    margin: 0px;
+}
+
+figure img {
+    outline: solid 3px #3882f6;
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    flex: none;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    padding: 5px 0px;
 }
 
 .categories {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .action {
