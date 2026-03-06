@@ -187,3 +187,12 @@ h3 {
     outline: 2px solid white;
     flex: none;
 }
+
+footer {
+    color: rgb(194 194 194);
+    margin: 0px;
+    font-size: 18px;
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+}
