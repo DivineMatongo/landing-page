@@ -206,13 +206,23 @@ h3 {
     font-size: 18px;
 }
 
-.action button {
+.contact {
     background-color: #3882f6;
     color: white;
-    border-style: none;
+    /* border-style: none; */
     outline: 2px solid white;
-    flex: none;
+    /* flex: none; */
     font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+    /* padding: 5px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
