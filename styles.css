@@ -72,6 +72,10 @@ button {
     width: 30px;
 }
 
+#fiverr-icon {
+    width: 40px;
+}
+
 .top {
     display: flex;
     padding: 40px 0px 80px 0px;
